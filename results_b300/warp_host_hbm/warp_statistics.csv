@@ -1,0 +1,3 @@
+experiment,measured_lanes,average_ns,median_ns,p95_ns,p99_ns,max_ns
+warp_host,32,1534.3779296875,1524.0,1568.0,1592.0,20432
+warp_mixed,16,1449.564453125,1440.0,1496.0,1550.6000000000058,15352

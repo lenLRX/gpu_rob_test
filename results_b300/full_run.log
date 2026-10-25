@@ -1,0 +1,31 @@
+GPU=NVIDIA B300 SXM6 AC sm_count=148 l2_bytes=132644864
+Allocating chain=512 MiB, TMA source=1024 MiB
+Initialized one random permutation cycle, entries=134217728
+globaltimer_minimum_nonzero_delta_ns=32
+idle: grid=1 tma_sms=0 avg_ns=412.457 min_ns=280 max_ns=564 wait_ns=5024
+separate_pretest: grid=148 tma_sms=147 avg_ns=997.544 min_ns=480 max_ns=1728 wait_ns=5024 bandwidth_GB/s=7442.27 total_GB/s=6828.07 overlap_ns=32795040
+separate: grid=148 tma_sms=147 avg_ns=988.697 min_ns=452 max_ns=1636 wait_ns=5024 bandwidth_GB/s=7442.87 total_GB/s=6821 overlap_ns=32500224
+concurrent_pretest: grid=148 tma_sms=148 avg_ns=977.438 min_ns=512 max_ns=1644 wait_ns=5024 bandwidth_GB/s=7439.44 total_GB/s=6829.41 overlap_ns=32134784
+concurrent: grid=148 tma_sms=148 avg_ns=983.909 min_ns=488 max_ns=1696 wait_ns=5024 bandwidth_GB/s=7441.36 total_GB/s=6827.27 overlap_ns=32343360
+sweep_1: grid=1 tma_sms=1 avg_ns=415.783 min_ns=292 max_ns=572 wait_ns=5024 bandwidth_GB/s=106.673 total_GB/s=106.735 overlap_ns=13702720
+sweep_2: grid=2 tma_sms=2 avg_ns=415.906 min_ns=296 max_ns=560 wait_ns=5024 bandwidth_GB/s=213.462 total_GB/s=213.381 overlap_ns=13705120
+sweep_4: grid=4 tma_sms=4 avg_ns=413.616 min_ns=288 max_ns=556 wait_ns=5024 bandwidth_GB/s=426.571 total_GB/s=426.241 overlap_ns=13630464
+sweep_5: grid=5 tma_sms=5 avg_ns=413.58 min_ns=292 max_ns=580 wait_ns=5024 bandwidth_GB/s=533.235 total_GB/s=532.86 overlap_ns=13631392
+sweep_6: grid=6 tma_sms=6 avg_ns=412.839 min_ns=296 max_ns=556 wait_ns=5024 bandwidth_GB/s=639.874 total_GB/s=639.422 overlap_ns=13604672
+sweep_7: grid=7 tma_sms=7 avg_ns=412.349 min_ns=288 max_ns=584 wait_ns=5024 bandwidth_GB/s=746.574 total_GB/s=745.98 overlap_ns=13591520
+sweep_8: grid=8 tma_sms=8 avg_ns=412.303 min_ns=292 max_ns=572 wait_ns=5024 bandwidth_GB/s=853.322 total_GB/s=852.408 overlap_ns=13588256
+sweep_12: grid=12 tma_sms=12 avg_ns=412.236 min_ns=288 max_ns=564 wait_ns=5024 bandwidth_GB/s=1280.03 total_GB/s=1278.52 overlap_ns=13587776
+sweep_16: grid=16 tma_sms=16 avg_ns=414.479 min_ns=292 max_ns=592 wait_ns=5024 bandwidth_GB/s=1705.9 total_GB/s=1704.24 overlap_ns=13659296
+sweep_24: grid=24 tma_sms=24 avg_ns=420.427 min_ns=288 max_ns=568 wait_ns=5024 bandwidth_GB/s=2557.73 total_GB/s=2551 overlap_ns=13853056
+sweep_32: grid=32 tma_sms=32 avg_ns=429.216 min_ns=308 max_ns=580 wait_ns=5024 bandwidth_GB/s=3405.4 total_GB/s=3393.3 overlap_ns=14143808
+sweep_36: grid=36 tma_sms=36 avg_ns=435.61 min_ns=292 max_ns=600 wait_ns=5024 bandwidth_GB/s=3826.9 total_GB/s=3815.71 overlap_ns=14351904
+sweep_40: grid=40 tma_sms=40 avg_ns=441.997 min_ns=316 max_ns=656 wait_ns=5024 bandwidth_GB/s=4247.19 total_GB/s=4233.81 overlap_ns=14560640
+sweep_48: grid=48 tma_sms=48 avg_ns=458.477 min_ns=312 max_ns=668 wait_ns=5024 bandwidth_GB/s=5079.86 total_GB/s=5060.87 overlap_ns=15104032
+sweep_56: grid=56 tma_sms=56 avg_ns=484.51 min_ns=324 max_ns=696 wait_ns=5024 bandwidth_GB/s=5876.71 total_GB/s=5860.03 overlap_ns=15956736
+sweep_64: grid=64 tma_sms=64 avg_ns=519.795 min_ns=332 max_ns=796 wait_ns=5024 bandwidth_GB/s=6580.41 total_GB/s=6556.48 overlap_ns=17112544
+sweep_72: grid=72 tma_sms=72 avg_ns=574.552 min_ns=368 max_ns=844 wait_ns=5024 bandwidth_GB/s=7055.83 total_GB/s=7034.03 overlap_ns=18908864
+sweep_80: grid=80 tma_sms=80 avg_ns=658.846 min_ns=424 max_ns=1020 wait_ns=5024 bandwidth_GB/s=7296.26 total_GB/s=7269.22 overlap_ns=21671520
+sweep_148: grid=148 tma_sms=148 avg_ns=982.941 min_ns=492 max_ns=1700 wait_ns=5024 bandwidth_GB/s=7439.07 total_GB/s=6825.17 overlap_ns=32314272
+Half-bandwidth target_GB/s=3720.68 selected_tma_sms=36
+half_bandwidth_pretest: grid=36 tma_sms=36 avg_ns=435.429 min_ns=312 max_ns=620 wait_ns=5024 bandwidth_GB/s=3826.37 total_GB/s=3815.65 overlap_ns=14347040
+half_bandwidth: grid=36 tma_sms=36 avg_ns=435.188 min_ns=300 max_ns=604 wait_ns=5024 bandwidth_GB/s=3826.36 total_GB/s=3804.52 overlap_ns=14338880

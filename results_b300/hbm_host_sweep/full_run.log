@@ -1,0 +1,34 @@
+GPU=NVIDIA B300 SXM6 AC sm_count=148
+globaltimer_resolution_ns=32
+host_warps=0 avg_ns=377.348 min_ns=212 max_ns=5736 host_read_GB/s=0 overlap_ns=0 smid=142
+host_warps=1 avg_ns=455.133 min_ns=272 max_ns=8456 host_read_GB/s=0.759143 overlap_ns=15080576 smid=142
+host_warps=2 avg_ns=572.003 min_ns=324 max_ns=8880 host_read_GB/s=1.60317 overlap_ns=18818432 smid=142
+host_warps=3 avg_ns=651.534 min_ns=344 max_ns=8664 host_read_GB/s=1.97786 overlap_ns=21424736 smid=142
+host_warps=4 avg_ns=653.118 min_ns=360 max_ns=8652 host_read_GB/s=1.9784 overlap_ns=21478976 smid=142
+host_warps=5 avg_ns=1015.99 min_ns=668 max_ns=9072 host_read_GB/s=1.98466 overlap_ns=33399008 smid=142
+host_warps=6 avg_ns=1459.01 min_ns=788 max_ns=10364 host_read_GB/s=1.98779 overlap_ns=48359840 smid=142
+host_warps=7 avg_ns=1615.04 min_ns=904 max_ns=9916 host_read_GB/s=1.98928 overlap_ns=54087712 smid=142
+host_warps=8 avg_ns=1854.17 min_ns=844 max_ns=10252 host_read_GB/s=1.99012 overlap_ns=63156832 smid=142
+host_warps=9 avg_ns=2090.46 min_ns=1200 max_ns=12660 host_read_GB/s=1.945 overlap_ns=71922080 smid=142
+host_warps=10 avg_ns=2227.67 min_ns=1396 max_ns=10572 host_read_GB/s=1.92711 overlap_ns=77020352 smid=142
+host_warps=11 avg_ns=2262.82 min_ns=1300 max_ns=10936 host_read_GB/s=1.95044 overlap_ns=78453184 smid=142
+host_warps=12 avg_ns=2750.81 min_ns=1468 max_ns=11312 host_read_GB/s=1.96415 overlap_ns=96813568 smid=142
+host_warps=13 avg_ns=2821.88 min_ns=2000 max_ns=12776 host_read_GB/s=1.92995 overlap_ns=99183296 smid=142
+host_warps=14 avg_ns=2854.19 min_ns=2052 max_ns=11136 host_read_GB/s=1.91338 overlap_ns=100389792 smid=142
+host_warps=15 avg_ns=2726.29 min_ns=1780 max_ns=11136 host_read_GB/s=1.96353 overlap_ns=95835840 smid=142
+host_warps=16 avg_ns=3227.5 min_ns=2560 max_ns=11516 host_read_GB/s=1.98082 overlap_ns=114547520 smid=142
+host_warps=17 avg_ns=3291.24 min_ns=2560 max_ns=11904 host_read_GB/s=1.94995 overlap_ns=116839776 smid=142
+host_warps=18 avg_ns=3306.95 min_ns=2632 max_ns=12264 host_read_GB/s=1.94402 overlap_ns=117388864 smid=142
+host_warps=19 avg_ns=3242.84 min_ns=2616 max_ns=11060 host_read_GB/s=1.972 overlap_ns=115107328 smid=142
+host_warps=20 avg_ns=3389.8 min_ns=2920 max_ns=12284 host_read_GB/s=1.98557 overlap_ns=121279840 smid=142
+host_warps=21 avg_ns=3442.36 min_ns=2800 max_ns=12344 host_read_GB/s=1.96456 overlap_ns=123091104 smid=142
+host_warps=22 avg_ns=3436.31 min_ns=2912 max_ns=12188 host_read_GB/s=1.96495 overlap_ns=122896608 smid=142
+host_warps=23 avg_ns=3405.35 min_ns=2884 max_ns=12472 host_read_GB/s=1.97629 overlap_ns=121825984 smid=142
+host_warps=24 avg_ns=3387.05 min_ns=2564 max_ns=24072 host_read_GB/s=1.988 overlap_ns=122017664 smid=142
+host_warps=25 avg_ns=3394.94 min_ns=2924 max_ns=11908 host_read_GB/s=1.98383 overlap_ns=122304064 smid=142
+host_warps=26 avg_ns=3393.62 min_ns=2920 max_ns=12596 host_read_GB/s=1.98501 overlap_ns=122232384 smid=142
+host_warps=27 avg_ns=3383.79 min_ns=2912 max_ns=12584 host_read_GB/s=1.98673 overlap_ns=121925888 smid=142
+host_warps=28 avg_ns=3353.26 min_ns=2908 max_ns=12180 host_read_GB/s=1.99264 overlap_ns=121908224 smid=142
+host_warps=29 avg_ns=3359.02 min_ns=2868 max_ns=12196 host_read_GB/s=1.99274 overlap_ns=122022272 smid=142
+host_warps=30 avg_ns=3352.52 min_ns=2856 max_ns=12076 host_read_GB/s=1.99265 overlap_ns=121856160 smid=142
+host_warps=31 avg_ns=3351.9 min_ns=2920 max_ns=12524 host_read_GB/s=1.99252 overlap_ns=121870560 smid=142

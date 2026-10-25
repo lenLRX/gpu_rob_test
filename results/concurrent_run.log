@@ -1,0 +1,6 @@
+GPU=NVIDIA GeForce RTX 5080 sm_count=84 l2_bytes=67108864
+Allocating chain=512 MiB, TMA source=1024 MiB
+Initialized one random permutation cycle, entries=134217728
+globaltimer_minimum_nonzero_delta_ns=32
+concurrent_pretest: grid=84 tma_sms=84 avg_ns=1928.8 min_ns=548 max_ns=74764 wait_ns=5024 bandwidth_GB/s=864.652 total_GB/s=870.13 overlap_ns=63354912
+concurrent: grid=84 tma_sms=84 avg_ns=1916.95 min_ns=588 max_ns=63444 wait_ns=5024 bandwidth_GB/s=876.467 total_GB/s=881.107 overlap_ns=62965408

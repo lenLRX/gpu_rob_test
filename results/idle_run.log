@@ -1,0 +1,5 @@
+GPU=NVIDIA GeForce RTX 5080 sm_count=84 l2_bytes=67108864
+Allocating chain=512 MiB, TMA source=1024 MiB
+Initialized one random permutation cycle, entries=134217728
+globaltimer_minimum_nonzero_delta_ns=32
+idle: grid=1 tma_sms=0 avg_ns=321.852 min_ns=276 max_ns=22836 wait_ns=5024

@@ -1,0 +1,6 @@
+GPU=NVIDIA B300 SXM6 AC sm_count=148 l2_bytes=132644864
+hbm_chain_bytes=268435456 host_chain_bytes=268435456 globaltimer_resolution_ns=32
+warp_host_pretest measured_lanes=32 avg_ns=1534.95 min_ns=1424 max_ns=8756 smid=142
+warp_host measured_lanes=32 avg_ns=1534.38 min_ns=1420 max_ns=20432 smid=142
+warp_mixed_pretest measured_lanes=16 avg_ns=1447.36 min_ns=1340 max_ns=14536 smid=142
+warp_mixed measured_lanes=16 avg_ns=1449.56 min_ns=1328 max_ns=15352 smid=142

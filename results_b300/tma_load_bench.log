@@ -1,0 +1,28 @@
+Device         : NVIDIA B300 SXM6 AC (sm_103)
+SMs            : 148
+Smem/SM        : 228 KiB   Smem/block(opt-in): 227 KiB
+Working set    : 4.00 GiB (4294967296 bytes, all-zero data)
+Mem clock      : 3996 MHz   bus width: 7680 bit
+Reported SOL BW: 7.67 TB/s (note: r5xx drivers misreport bus width)
+
+stages  bytes/ld   in-flight BW(TB/s)     %SOL       clk(GHz) 
+------------------------------------------------------------------
+2       4KB        64KB/SM   6.898        89.9       2.031    
+4       4KB        128KB/SM  6.853        89.3       2.031    
+8       4KB        192KB/SM  6.754        88.0       2.033    
+16      4KB        192KB/SM  6.453        84.1       2.032    
+2       8KB        128KB/SM  6.831        89.0       2.033    
+4       8KB        192KB/SM  6.910        90.1       2.033    
+8       8KB        192KB/SM  6.944        90.5       2.033    
+16      8KB        128KB/SM  6.968        90.8       2.033    
+2       16KB       192KB/SM  6.971        90.9       2.033    
+4       16KB       192KB/SM  7.014        91.4       2.030    
+8       16KB       128KB/SM  6.944        90.5       2.031    
+12      16KB       192KB/SM  6.787        88.5       2.031    
+2       32KB       192KB/SM  7.037        91.7       2.030    
+4       32KB       128KB/SM  7.037        91.7       2.031    
+6       32KB       192KB/SM  7.027        91.6       2.033    
+2       64KB       128KB/SM  7.061        92.0       2.032    
+3       64KB       192KB/SM  7.071        92.2       2.031    
+------------------------------------------------------------------
+BEST: 3 stages x 64 KB  ->  7.071 TB/s  (92.2% of SOL, 2.031 GHz)

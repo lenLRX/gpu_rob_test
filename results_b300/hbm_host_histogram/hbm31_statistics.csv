@@ -1,0 +1,2 @@
+samples,average_ns,median_ns,p95_ns,p99_ns,max_ns,host_bandwidth_GB_per_s
+65536,3387.4698486328125,3356.0,3720.0,4000.0,15440,1.9858433730041936

@@ -1,0 +1,2 @@
+bins,pretest_min_ns,pretest_p99_ns,pretest_max_ns,bin_width_ns,formal_in_range,formal_below_min,formal_above_p99
+512,224,484,552,0.509765625,4052,2,42

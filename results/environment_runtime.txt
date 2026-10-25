@@ -1,0 +1,10 @@
+device_count=1
+device=0
+name=NVIDIA GeForce RTX 5080
+compute_capability=12.0
+sm_count=84
+global_memory_bytes=17066033152
+l2_cache_bytes=67108864
+shared_memory_per_block_optin=101376
+cuda_runtime_version=12.9
+cuda_driver_version=13.4

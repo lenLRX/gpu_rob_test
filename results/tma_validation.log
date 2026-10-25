@@ -1,0 +1,19 @@
+GPU=NVIDIA GeForce RTX 5080 sm_count=84 l2_bytes=67108864
+Allocating chain=512 MiB, TMA source=1024 MiB
+Initialized one random permutation cycle, entries=134217728
+globaltimer_minimum_nonzero_delta_ns=32
+sweep_1: grid=1 tma_sms=1 avg_ns=346.5 min_ns=0 max_ns=672 wait_ns=5024 bandwidth_GB/s=73.1429 total_GB/s=74.2105 overlap_ns=46592
+sweep_2: grid=2 tma_sms=2 avg_ns=343.75 min_ns=0 max_ns=576 wait_ns=5024 bandwidth_GB/s=148.247 total_GB/s=145.76 overlap_ns=47744
+sweep_4: grid=4 tma_sms=4 avg_ns=338 min_ns=0 max_ns=576 wait_ns=5024 bandwidth_GB/s=285.512 total_GB/s=292.975 overlap_ns=47744
+sweep_8: grid=8 tma_sms=8 avg_ns=354.75 min_ns=0 max_ns=768 wait_ns=5024 bandwidth_GB/s=548.746 total_GB/s=575.666 overlap_ns=53504
+sweep_12: grid=12 tma_sms=12 avg_ns=384.25 min_ns=0 max_ns=704 wait_ns=5024 bandwidth_GB/s=715.346 total_GB/s=778.995 overlap_ns=60832
+sweep_16: grid=16 tma_sms=16 avg_ns=458 min_ns=0 max_ns=800 wait_ns=5024 bandwidth_GB/s=759.939 total_GB/s=809.301 overlap_ns=75200
+sweep_24: grid=24 tma_sms=24 avg_ns=827 min_ns=0 max_ns=1536 wait_ns=5024 bandwidth_GB/s=816.046 total_GB/s=850.592 overlap_ns=132992
+sweep_32: grid=32 tma_sms=32 avg_ns=1123 min_ns=32 max_ns=2944 wait_ns=5024 bandwidth_GB/s=756.627 total_GB/s=909.914 overlap_ns=182240
+sweep_40: grid=40 tma_sms=40 avg_ns=1499.75 min_ns=0 max_ns=3776 wait_ns=5024 bandwidth_GB/s=787.566 total_GB/s=914.384 overlap_ns=240320
+sweep_48: grid=48 tma_sms=48 avg_ns=1587.25 min_ns=0 max_ns=3296 wait_ns=5024 bandwidth_GB/s=780.476 total_GB/s=850.265 overlap_ns=261984
+sweep_56: grid=56 tma_sms=56 avg_ns=1507.25 min_ns=0 max_ns=5664 wait_ns=5024 bandwidth_GB/s=722.265 total_GB/s=913.269 overlap_ns=262048
+sweep_64: grid=64 tma_sms=64 avg_ns=2371.75 min_ns=0 max_ns=4576 wait_ns=5024 bandwidth_GB/s=784.166 total_GB/s=856.005 overlap_ns=383104
+sweep_72: grid=72 tma_sms=72 avg_ns=2656.25 min_ns=32 max_ns=5312 wait_ns=5024 bandwidth_GB/s=786.593 total_GB/s=894.242 overlap_ns=430912
+sweep_80: grid=80 tma_sms=80 avg_ns=2824.5 min_ns=32 max_ns=5792 wait_ns=5024 bandwidth_GB/s=750.352 total_GB/s=913.53 overlap_ns=461856
+sweep_84: grid=84 tma_sms=84 avg_ns=2993 min_ns=0 max_ns=5824 wait_ns=5024 bandwidth_GB/s=781.521 total_GB/s=868.923 overlap_ns=487712

@@ -1,0 +1,23 @@
+SSH target: root@195.26.233.130 -p 19513 -i lrx
+Status: blocked before authentication; no remote commands or benchmarks executed.
+
+Command:
+ssh -o BatchMode=yes -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=known_hosts_b300 -p 19513 -i lrx root@195.26.233.130 'nvidia-smi; ...'
+Error:
+ssh: connect to host 195.26.233.130 port 19513: Connection refused
+
+Network checks:
+ping -c 3 -W 3 195.26.233.130
+3 packets transmitted, 3 received, 0% packet loss; round-trip approximately 194-196 ms.
+
+nc -vz -w 5 195.26.233.130 19513
+nc: connect to 195.26.233.130 port 19513 failed: Connection refused
+
+Retry after preparing sm_100 build:
+ssh -o BatchMode=yes -o ConnectTimeout=10 -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=known_hosts_b300 -p 19513 -i lrx root@195.26.233.130 'nvidia-smi; command -v nvcc >/dev/null && nvcc --version || true; uname -a'
+Error:
+ssh: connect to host 195.26.233.130 port 19513: Connection refused
+
+Local preparation completed:
+/usr/local/cuda/bin/nvcc -std=c++17 -O3 -arch=sm_100 -lineinfo benchmark.cu -o benchmark_sm100 -lcuda
+Result: compilation succeeded locally. This is not a B300 execution result.

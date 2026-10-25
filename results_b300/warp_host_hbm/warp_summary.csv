@@ -1,0 +1,5 @@
+experiment,mixed,measured_lanes,samples_per_lane,total_samples,average_ns,min_ns,max_ns,smid,globaltimer_resolution_ns
+warp_host_pretest,0,32,4096,131072,1534.951171875,1424,8756,142,32
+warp_host,0,32,4096,131072,1534.3779296875,1420,20432,142,32
+warp_mixed_pretest,1,16,4096,65536,1447.3583984375,1340,14536,142,32
+warp_mixed,1,16,4096,65536,1449.564453125,1328,15352,142,32
